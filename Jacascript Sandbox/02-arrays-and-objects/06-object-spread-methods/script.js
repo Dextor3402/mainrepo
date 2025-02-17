@@ -1,6 +1,5 @@
 let x;
 
-
 const todo = new Object();
 
 todo.id = 1;
@@ -32,7 +31,6 @@ const todos = [
     {id: 3, name: 'Buy red bull'},
 ]
 
-
 x = todos[0];
 
 x = Object.keys(todo).length;
@@ -42,15 +40,5 @@ x = Object.values(todo);
 x = Object.entries(todo);
 
 x = todo.hasOwnProperty('name');
-
-
-
-
-
-
-
-
-
-
 
 console.log(x);
